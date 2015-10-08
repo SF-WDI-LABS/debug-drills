@@ -1,5 +1,7 @@
 # Debugging JavaScript
 
+(Drills for WDI 22 & 23, week 2, day 4)
+
 ## Error messages
 
 Read error messages! Sometimes error messages are awesome. Sometimes not so much.  Be aware that in the chrome dev tools console, the right hand side of an error line often shows you the file name and line number that the error came from.
@@ -96,7 +98,7 @@ Chrome dev tools also lets you set "conditional breakpoints" that pause whenever
 ## Drills!
 
 
-A copy of the starter code is available to fork and clone in <a href="https://github.com/sf-wdi-22-23/debug-drills" target="_blank">the class debug-drills repo</a>.
+Fork and clone this repository to easily get a copy of the starter code!
 
 The code in script.js has comments that list some problems with the sample project website. There are currently some bugs, but it should look like this:
 
