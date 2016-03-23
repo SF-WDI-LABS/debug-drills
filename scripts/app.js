@@ -48,7 +48,7 @@ $(document).ready(function(){
 	    var $link;
 	    var $ul = $('ul');
 	    for (var i=0; i<5; i++) {
-	        $link = $('<a href="#"></a>');
+	        $link = $('<a href="#" class="btn btn-link"></a>');
 	        $link.html('Link '+i);
 	        $link.on('click', (function(index){
 	        	console.log('this, ', this)
