@@ -82,23 +82,23 @@ Since Node.js is built on the same JavaScript engine Chrome uses (called "V8"), 
 node debug script.js
 ```
 
-You don't have a GUI in the Terminal, so you'll have to enter debugger text commands. A full list of commands and more information on how to use `debugger` with Node.js is avaiable in the <a href="https://nodejs.org/api/debugger.html" target="_blank">Node.js debugger documentation</a>.
+You don't have a GUI in the Terminal, so you'll have to enter debugger text commands. A full list of commands and more information on how to use `debugger` with Node.js is avaiable in the <a href="https://nodejs.org/api/debugger.html">Node.js debugger documentation</a>.
 
 ## Using Conditional Breakpoints in Chrome Dev Tools
 
-Chrome dev tools also lets you set "conditional breakpoints" that pause whenever some trigger occurs, like "pause whenever a click event fires" or "pause whenever a request is made". You set these through the Sources tab, in the breakpoint dropdowns.  More details (and images!) are available in Google's <a href="https://developers.google.com/web/tools/javascript/breakpoints/add-breakpoints?hl=en#create-conditional-breakpoints" target="_blank">how to add breakpoints</a>.
+Chrome dev tools also lets you set "conditional breakpoints" that pause whenever some trigger occurs, like "pause whenever a click event fires" or "pause whenever a request is made". You set these through the Sources tab, in the breakpoint dropdowns.  More details (and images!) are available in Google's <a href="https://developers.google.com/web/tools/javascript/breakpoints/add-breakpoints?hl=en#create-conditional-breakpoints">how to add breakpoints</a>.
 
 ## More Resources
 
-* Google's <a href="https://developers.google.com/web/tools/javascript/index?hl=en" target="_blank">guide to debugging JavaScript with Chrome Dev Tools</a>
+* Google's <a href="https://developers.google.com/web/tools/javascript/index?hl=en">guide to debugging JavaScript with Chrome Dev Tools</a>
 
 
 ## Drills!
 
 
-Fork and clone this repository to easily get a copy of the starter code!
+Clone this repository! Solution in solution branch.
 
-The code in script.js has comments that list some problems with the sample project website. There are currently some bugs, but it should look like this:
+The code in app.js has comments that list some problems with the sample project website. There are currently some bugs, but it should look like this:
 
 <img src="img/result.png" width="60%" alt="count es and link a lot site screenshot">
 
