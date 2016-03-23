@@ -3,7 +3,7 @@ console.log("Sanity Check: JS is working!");
 $(document).ready(function(){
 	console.log("The DOM is ready!");
 
-	// squash the bugs isn't showing up 
+	// squash the bugs isn't showing up
 	function addSubHeader() {
 		var subHeader = $('<small>&nbsp&nbspsquash the bugs!</small>')
 		$('h1').append(subHeader);
@@ -35,7 +35,7 @@ $(document).ready(function(){
 	    var $link;
 	    var $ul = $('ul');
 	    for (var i=0; i<5; i++) {
-	        $link = $('<a href="#"></a>');
+	        $link = $('<a href="#" class="btn btn-link"></a>');
 	        $link.html('Link '+i);
 	        $link.on('click', function () {
 	            alert(i);
