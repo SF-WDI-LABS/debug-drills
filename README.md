@@ -1,6 +1,4 @@
-# Debugging JavaScript
-
-(Drills for WDI 22 & 23, week 2, day 4)
+# Dǝqnƃƃᴉuƃ JavaScript
 
 ## Error messages
 
@@ -23,29 +21,29 @@ Tips for console logging:
 	console.log("inside add button click event - this is ", this);
 	```
 * Don't reuse the same log message in multiple places; it will be hard to tell where messages came from once we get out of the chrome dev tools.  
-* When adding an object to a string log message, use a comma instead of a plus sign.  When you use a plus sign, the object is converted to a string (poorly, in most cases). With the comma, the object is not converted. 
+* When adding an object to a string log message, use a comma instead of a plus sign.  When you use a plus sign, the object is converted to a string (poorly, in most cases). With the comma, the object is not converted.
 
 	```js
 	var animals = {a:"aardvark", b:"baboon"};
-	
+
 	// WORSE
 	console.log("animals is " + animals);
 	// logs "animals is [object Object]"
-	
+
 	// BETTER
 	console.log("animals is ", animals);
 	// logs "animals is  { a: 'aardvark', b: 'baboon' }"
 	```
-		
-	
-## Using `debugger` 
+
+
+## Using `debugger`
 
 `debugger` is a JavaScript tool for debugging! It lets you pause your code on a specific line, wherever you write the keyword `debugger`. While it's paused, you can examine the scope, the call stack, and other useful information.  Across many languages and tools, interactive pauses like this are called "breakpoints".
 
 
 ### Chrome Dev Tools
 
-Chrome's "Sources" tab provides a nice Graphical User Interface, or GUI (pronounced "gooey") for the debugger tool. 
+Chrome's "Sources" tab provides a nice Graphical User Interface, or GUI (pronounced "gooey") for the debugger tool.
 
 
 > ![chrome dev tools sources tab](img/sources.png)
