@@ -98,7 +98,7 @@ Chrome dev tools also lets you set "conditional breakpoints" that pause whenever
 
 Clone this repository! Solution in solution branch.
 
-The code in app.js has comments that list some problems with the sample project website. There are currently some bugs, but it should look like this:
+The code in scripts/app.js has comments that list some problems with the sample project website. There are currently some bugs, but it should look like this:
 
 <img src="img/result.png" width="60%" alt="count es and link a lot site screenshot">
 
