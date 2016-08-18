@@ -73,7 +73,7 @@ If you'd like your dev tools in a separate window from your browser, click and h
 <img src="img/undock.png" width="300px" alt="dev tools positioning">
 
 
-
+<!--
 ### Node.js
 
 Since Node.js is built on the same JavaScript engine Chrome uses (called "V8"), we can also use `debugger` when running a file from the terminal with Node.js:
@@ -82,7 +82,7 @@ Since Node.js is built on the same JavaScript engine Chrome uses (called "V8"), 
 node debug script.js
 ```
 
-You don't have a GUI in the Terminal, so you'll have to enter debugger text commands. A full list of commands and more information on how to use `debugger` with Node.js is avaiable in the <a href="https://nodejs.org/api/debugger.html">Node.js debugger documentation</a>.
+You don't have a GUI in the Terminal, so you'll have to enter debugger text commands. A full list of commands and more information on how to use `debugger` with Node.js is avaiable in the <a href="https://nodejs.org/api/debugger.html">Node.js debugger documentation</a>. -->
 
 ## Using Conditional Breakpoints in Chrome Dev Tools
 
